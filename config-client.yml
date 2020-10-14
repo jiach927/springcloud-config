@@ -1,3 +1,4 @@
+# 服务提供者(微服务)的相关配置
 spring:
   profiles:
      active: dev
