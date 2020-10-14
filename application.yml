@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev # 激活开发环境
+
+--- # 多文档文档块
+spring:
+  profiles: dev # 指定开发环境
+  application:
+    name: springcloud-config-dev
+
+---
+spring:
+  profiles: test # 指定测试环境
+  application:
+    name: springcloud-config-test
